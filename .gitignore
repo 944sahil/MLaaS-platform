@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+.envrc
+.eggs
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite3
+*.log
+*.out
+*.pth
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Model files
+*.ckpt
+*.pt
+*.onnx
+*.pb
+*.hdf5
+*.tflite
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+Dockerfile*
+!Dockerfile
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Other
+.idea/
+.mypy_cache/
+.cache/
+.pdm.toml
+.pdm.lock
+.tox/
+.nox/
+.pre-commit-config.yaml
+.pre-commit-config.local.yaml

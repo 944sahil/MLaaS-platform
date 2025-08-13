@@ -1,0 +1,14 @@
+# requirements.txt
+
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# For database interaction
+sqlalchemy
+psycopg2-binary
+
+# For managing database migrations
+alembic
+
+python-dotenv
