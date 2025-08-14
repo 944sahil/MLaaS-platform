@@ -9,8 +9,8 @@ services:
     image: postgres:15-alpine
     container_name: synapse_db
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=synapse_user
+      - POSTGRES_PASSWORD=synapse_password
       - POSTGRES_DB=synapse_db
     ports:
       - "5432:5432"
